@@ -1,4 +1,5 @@
 # Chat Robot
+## Team member: Yufei Wang,  Jiangchuan Li
 ### Introduction
 This project is mainly about trying to produce a chat robot. Based on the result of a neural conversational model(like the google chat bot). This project's model uses a RNN based on the seq2seq model for sentence prediction. This model is operated on python via Tensorflow.
 
