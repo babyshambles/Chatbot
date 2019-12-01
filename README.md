@@ -15,3 +15,5 @@ python 3, tensorflow, numpy, nltk(Natural Language toolkit for tokenized sentenc
 
 ### Implementation
 At the final step of this project, we take into consideration that make this chat robot come into being via web. This is mainly about to make a friendly interface, copy the model to the server, at the localhost make this application.
+
+### Result
