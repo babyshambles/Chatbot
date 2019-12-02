@@ -19,16 +19,14 @@ We need to do some data cleaning and transformations before using it to train th
 ### Embedding layer
 Words embedding is an important part in Natural Language Processing. The main idea behinds this is, we can keep the relation between related words and sentances by turned the words into vectors. In the Embedding space, two embedding vectors(which represent two words) should be close to one another if two words are related. 
 
-<center>
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/embedding.png?raw=true)
-</center>
 
 Usually a embedding layer is used before the training model. We choose Google News Word2Word as our embedding layer.
 
 ### Models 
 #### RNN
 * A simple RNN model can map the input sequence to a fixed size vector then map the vector to the target sequence in theory, but the results are not ideal when long term dependencies were introduced. The Long Short-Term Memory (LSTM) is explicitly designed to avoid the long-term dependency problem.
-
+![Image text](https://github.com/babyshambles/Chatbot/blob/master/embedding.png?raw=true)
 
 
 ### Package
