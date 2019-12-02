@@ -58,6 +58,9 @@ We choose to use GRU instead of LSTM because we find that GRU has shorter traini
 * So we take AWS into consideration to make this training process accelerated. Here we import the tqdm, which could let us create a simple progress bars with just a few lines of codes. This make a grate help that allow us to know how much work this model has done and how many more time it will need.
 
 ## Results
+### Self test
+We include a self test step after everytime an epoch loop is finished. We test the model with two sentences: 1. Happy birthday have a nice day 2. donld trump won lost nights presidential debate according to snap online polls. We can see how the model's responce is improving.
+![Image text](https://github.com/babyshambles/Chatbot/blob/master/Encoder.png?raw=true)
 ## Installation 
 ### How to run
 ### Dependency lists
