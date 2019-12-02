@@ -39,11 +39,26 @@ Gated Recurrent Unit is very similar to LSTM, with forget gate but has fewer par
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/GRU.png?raw=true)
 
 We choose to use GRU instead of LSTM because we find that GRU has shorter training time than LSTM. GRU’s has fewer tensor operations, and the performance is similar to LSTM, sometimes even better in some small data sample cases.
-### Package
+
+### Training 
+* As we get starting with the training process, we set the batch size 32, and the training epoch 50. We send the training set into the model. Since the data set corpus is such a large set and the structure of the DL model is a little complicated, it takes nearly one hour for one epoch to train. The total training time is about 50 hours.
+* So we take AWS into consideration to make this training process accelerated. Here we import the tqdm, which could let us create a simple progress bars with just a few lines of codes. This make a grate help that allow us to know how much work this model has done and how many more time it will need.
+
+## Results
+## Installation 
+
+### Dependency lists
 This project requires the following pakages:
-python 3, tensorflow, numpy, nltk(Natural Language toolkit for tokenized sentences).
+* python 3
+* Tensorflow and Tensorlayer
+* nltk(Natural Language toolkit for tokenized sentences)
+* tqdm(for progression monitoring)
+* numpy
 
-### Implementation
-At the final step of this project, we take into consideration that make this chat robot come into being via web. This is mainly about to make a friendly interface, copy the model to the server, at the localhost make this application.
+## Future works 
+* More dialog corpus. Because of the time limitation, we only use Twitter dialog to train this model. Our model didn't perform good enough when it answering questions because this corpus contains mostly comments, not conversations. And the model only generate meaningful responses in certain context. In the future, we can use dialogs like Cornell Movie Dialogs corpus and Supreme Court Conversation Data to improve our performance.
+* Actions to save time. Due to the tight schedule and computing power limitation, we did a lot of works to reduce training time. We limited the length of dialogs, chose simpler model with less training time and reduced epoch times. We believe we can achieve better results with a longer training process.
+* An user friendly interface. Now we chat with our Chatbot in command windows, this is more like a test of our model rather than chatting. If we want users to use our product, we need to design an user friendly interface. It's possible to design a beautiful website connected to our server by using Djungo and Redis.
 
-### Result
+
+
