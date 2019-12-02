@@ -5,6 +5,10 @@
 * [Introduction](#Introduction)
 * [TODO](#TODO)
     * [Corpus](#Corpus)
+    * [Data pre-processing](#Data pre-processing)
+    * [Embedding layer](#Embedding layer)
+    * [Models](#Models)
+         * [Reccurent Neural Networks (RNNs)]
 ## Introduction
  * We chose to design a Chatbot as our project of EE628 because of our interest in natural language processing. A Chatbot, or a Neural Conversation Model is an important part in natural language processing. It can generate answers for some sentences automatically after trained on large amount of dialog data. 
  * Although Deep Neural Networks (DNNs) can achieve great results in almost every difficult learning task whenever large labeled training sets are available, they cannot be used to map sequences to sequences which we will need in our model. Reccurent Neural Networks or simple RNNs, a Seq2Seq model is introduced to our project. 
