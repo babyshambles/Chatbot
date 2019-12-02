@@ -22,7 +22,6 @@ Words embedding is an important part in Natural Language Processing. The main id
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/embedding.png?raw=true)
 
 Usually a embedding layer is used before the training model. We choose Google News Word2Word as our embedding layer.
-![Image text](https://github.com/babyshambles/Chatbot/blob/master/GRU.png?raw=true)
 ### Models 
 #### Reccurent Neural Networks (RNNs)
 * A simple RNN model can map the input sequence to a fixed size vector then map the vector to the target sequence in theory, but the results are not ideal when long term dependencies were introduced. The Long Short-Term Memory (LSTM) is explicitly designed to avoid the long-term dependency problem.
@@ -34,6 +33,7 @@ Usually a embedding layer is used before the training model. We choose Google Ne
 
 #### Gated Recurrent Unit (GRU)
 Gated Recurrent Unit is very similar to LSTM, with forget gate but has fewer parameters than LSTM.
+![Image text](https://github.com/babyshambles/Chatbot/blob/master/GRU.png?raw=true)
 ### Package
 This project requires the following pakages:
 python 3, tensorflow, numpy, nltk(Natural Language toolkit for tokenized sentences).
