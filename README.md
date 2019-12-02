@@ -8,7 +8,7 @@
     * [Data pre-processing](#Data-pre-processing)
     * [Embedding layer](#Embedding-layer)
     * [Models](#Models)
-         * [Reccurent Neural Networks (RNNs)](#Reccurent-Neural-Networks-(RNNs))
+         * [Reccurent Neural Networks](#Reccurent-Neural-Networks)
          * [Gated Recurrent Unit (GRU)](#Gated-Recurrent-Unit-(GRU))
     * [Training](#Training)
 * [Results](#Results)
@@ -36,7 +36,7 @@ Words embedding is an important part in Natural Language Processing. The main id
 
 Usually a embedding layer is used before the training model. We choose Google News Word2Word as our embedding layer.
 ### Models 
-#### Reccurent Neural Networks (RNNs)
+#### Reccurent Neural Networks
 * A simple RNN model can map the input sequence to a fixed size vector then map the vector to the target sequence in theory, but the results are not ideal when long term dependencies were introduced. The Long Short-Term Memory (LSTM) is explicitly designed to avoid the long-term dependency problem.
 
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/LSTM.png?raw=true)
