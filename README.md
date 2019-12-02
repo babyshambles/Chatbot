@@ -18,9 +18,11 @@ We need to do some data cleaning and transformations before using it to train th
 * Tokenization. As we know Deep Learning models can not read text directly, so our job is to convert this word-basedtext to integer index. First we split the data into question set and answer set, then add zero padding tothese both sets. Here we should note that if the word is not in the vocabulary, we should replace theword with ’unk’ and get the final results indices of words. 
 ### Embedding layer
 Words embedding is an important part in Natural Language Processing. The main idea behinds this is, we can keep the relation between related words and sentances by turned the words into vectors. In the Embedding space, two embedding vectors(which represent two words) should be close to one another if two words are related. 
+
 <center>
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/embedding.png?raw=true)
 </center>
+
 Usually a embedding layer is used before the training model. We choose Google News Word2Word as our embedding layer.
 
 ### Models 
