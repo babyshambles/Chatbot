@@ -32,8 +32,10 @@ Usually a embedding layer is used before the training model. We choose Google Ne
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/Encoder.png?raw=true)
 
 #### Gated Recurrent Unit (GRU)
-Gated Recurrent Unit is very similar to LSTM, with forget gate but has fewer parameters than LSTM.
+Gated Recurrent Unit is very similar to LSTM, with forget gate but has fewer parameters than LSTM. This is the sturcture of Gated Recurrent Unit.
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/GRU.png?raw=true)
+
+We choose to use GRU instead of LSTM because we find that GRU has shorter training time than LSTM. GRU’s has fewer tensor operations, and the performance is similar to LSTM, sometimes even better in some small data sample cases.
 ### Package
 This project requires the following pakages:
 python 3, tensorflow, numpy, nltk(Natural Language toolkit for tokenized sentences).
