@@ -59,7 +59,7 @@ Gated Recurrent Unit (GRU) is very similar to LSTM, with forget gate but has few
 Although in seq2seq model, the vanilla version of RNN is rarely used, its more advanced version i.e. LSTM or GRU are used. We choose to use GRU instead of LSTM because we find that GRU has shorter training time than LSTM. GRU’s has fewer tensor operations, and the performance is similar to LSTM, sometimes even better in some small data sample cases.
 
 ### Training 
-* As we get starting with the training process, we set the batch size 32, and the training epoch 50. We send the training set into the model. Since the data set corpus is such a large set and the structure of the DL model is a little complicated, it takes nearly one hour for one epoch to train. The total training time is about 50 hours.
+* As we get starting with the training process, we set the batch size 32, and the training epoch 19. We send the training set into the model. Since the data set corpus is such a large set and the structure of the DL model is a little complicated, it takes nearly one hour for one epoch to train. The total training time is about 50 hours.
 * So we take AWS into consideration to make this training process accelerated. Here we import the tqdm, which could let us create a simple progress bars with just a few lines of codes. This make a grate help that allow us to know how much work this model has done and how many more time it will need.
 
 ## Results
