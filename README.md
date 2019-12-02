@@ -70,14 +70,14 @@ We include a self test step after everytime an epoch loop is finished. We test t
 
 ## Installation 
 ### How to run
-* Run 'tensorlayer_dataprocess.py' to preprocess the data
-* Run tensorlayer_chat.py to train the model 
-* Run load_model.py to chat with the model
+* Run `tensorlayer_dataprocess.py` to preprocess the data
+* Run `tensorlayer_chat.py` to train the model 
+* Run `load_model.py` to chat with the model
 
 #### twitter_en.txt
 This is the dialog corpus we use. 
 #### model.npz
-This is the model we already trained. You can skip tensorlayer_chat.py and run load_model.py to see our pre-trained model.
+This is the model we already trained. You can skip `tensorlayer_chat.py` and run `load_model.py` to see our pre-trained model.
 ### Dependency lists
 This project requires the following pakages:
 * python 3
