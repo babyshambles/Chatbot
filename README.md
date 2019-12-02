@@ -25,14 +25,17 @@ Usually a embedding layer is used before the training model. We choose Google Ne
 ### Models 
 #### Reccurent Neural Networks (RNNs)
 * A simple RNN model can map the input sequence to a fixed size vector then map the vector to the target sequence in theory, but the results are not ideal when long term dependencies were introduced. The Long Short-Term Memory (LSTM) is explicitly designed to avoid the long-term dependency problem.
+
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/LSTM.png?raw=true)
 
 * This is a standard deep LSTM model with four layers. In the image, each yellow square is a nerual net layer, in which sigmoid layer decides what information we are going to keep by iterating the following equation and tanh layer is a pointwise multiplication operation.
 * In Neural Conversational Model problem, usually two LSTMs will be used: one for the input sequence as encoder and one for the outputsequence as decode. This is a simple demonstration of what's going on in the Encoder-Decoder models.
+
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/Encoder.png?raw=true)
 
 #### Gated Recurrent Unit (GRU)
 Gated Recurrent Unit is very similar to LSTM, with forget gate but has fewer parameters than LSTM. This is the sturcture of Gated Recurrent Unit.
+
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/GRU.png?raw=true)
 
 We choose to use GRU instead of LSTM because we find that GRU has shorter training time than LSTM. GRU’s has fewer tensor operations, and the performance is similar to LSTM, sometimes even better in some small data sample cases.
