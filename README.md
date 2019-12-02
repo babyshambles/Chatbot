@@ -63,6 +63,11 @@ Although in seq2seq model, the vanilla version of RNN is rarely used, its more a
 * So we take AWS into consideration to make this training process accelerated. Here we import the tqdm, which could let us create a simple progress bars with just a few lines of codes. This make a grate help that allow us to know how much work this model has done and how many more time it will need.
 
 ## Results
+This plot shows the convergence of loss in every training epoch.
+
+<img width="700" height="500" src="https://github.com/babyshambles/Chatbot/blob/master/loss.jpeg?raw=true"/>
+
+After 50 training epoch and more than 50 hours of training time, we finally get the chance to see how good is our Chatbot communication skills. 
 ### Self test
 We include a self test step after everytime an epoch loop is finished. We test the model with two sentences: 1. Happy birthday have a nice day 2. donld trump won lost nights presidential debate according to snap online polls. We can see how the model's responce is improving.
 
