@@ -71,7 +71,7 @@ After 50 training epoch and more than 50 hours of training time, we finally get 
 ### Self test
 We include a self test step after everytime an epoch loop is finished. We test the model with two sentences: 1. Happy birthday have a nice day 2. donld trump won lost nights presidential debate according to snap online polls. We can see how the model's responce is improving.
 
-<img width="700" height="500" src="https://github.com/babyshambles/Chatbot/blob/master/Epoch.png"/>
+<img width="500" height="300" src="https://github.com/babyshambles/Chatbot/blob/master/Epoch.png"/>
 
 ## Installation 
 ### How to run
