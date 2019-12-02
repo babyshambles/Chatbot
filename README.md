@@ -1,5 +1,4 @@
-# EE628 final porject
-## Chatbot based on Reccurent Neural Networks(Seq2seq)
+# Chatbot based on Reccurent Neural Networks(Seq2seq)
 ### Team member: Yufei Wang,  Jiangchuan Li
 #### Table of Contents
 * [Introduction](#Introduction)
