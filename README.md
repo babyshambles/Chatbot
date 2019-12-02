@@ -29,12 +29,11 @@ Usually a embedding layer is used before the training model. We choose Google Ne
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/LSTM.png?raw=true)
 
 * This is a standard deep LSTM model with four layers. In the image, each yellow square is a nerual net layer, in which sigmoid layer decides what information we are going to keep by iterating the following equation and tanh layer is a pointwise multiplication operation.
-* In Neural Conversational Model problem, usually two LSTMs will be used: one for the input sequence as encoder and one for the outputsequence as decode. 
+* In Neural Conversational Model problem, usually two LSTMs will be used: one for the input sequence as encoder and one for the outputsequence as decode. This is a simple demonstration of what's going on in the Encoder-Decoder models.
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/Encoder.png?raw=true)
 
-This is a simple demonstration of what's going on in the Encoder-Decoder models.
 #### Gated Recurrent Unit (GRU)
-
+Gated Recurrent Unit is very similar to LSTM, with forget gate but has fewer parameters than LSTM.
 ### Package
 This project requires the following pakages:
 python 3, tensorflow, numpy, nltk(Natural Language toolkit for tokenized sentences).
