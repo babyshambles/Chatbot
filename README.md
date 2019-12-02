@@ -62,7 +62,7 @@ We choose to use GRU instead of LSTM because we find that GRU has shorter traini
 ### Self test
 We include a self test step after everytime an epoch loop is finished. We test the model with two sentences: 1. Happy birthday have a nice day 2. donld trump won lost nights presidential debate according to snap online polls. We can see how the model's responce is improving.
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/epoch.png?raw=true)
-<img width="1000" height="700" src="https://github.com/babyshambles/Chatbot/blob/master/epoch.png"/>
+<img width="700" height="500" src="https://github.com/babyshambles/Chatbot/blob/master/epoch.png"/>
 ## Installation 
 ### How to run
 ### Dependency lists
