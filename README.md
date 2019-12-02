@@ -5,7 +5,7 @@
 * [Introduction](#Introduction)
 * [TODO](#TODO)
     * [Corpus](#Corpus)
-    * [Data pre-processing](#Data pre-processing)
+    * [Data pre-processing](#Data-pre-processing)
     * [Embedding layer](#Embedding layer)
     * [Models](#Models)
          * [Reccurent Neural Networks (RNNs)]
