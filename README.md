@@ -8,7 +8,7 @@
     * [Data pre-processing](#Data-pre-processing)
     * [Embedding layer](#Embedding-layer)
     * [Models](#Models)
-         * [ReccurentNeural Networks (RNNs)](#Reccurent-Neural-Networks-(RNNs))
+         * [Reccurent Neural Networks (RNNs)](#Reccurent-Neural-Networks-(RNNs))
          * [Gated Recurrent Unit (GRU)](#Gated-Recurrent-Unit-(GRU))
     * [Training](#Training)
 * [Results](#Results)
