@@ -70,7 +70,7 @@ We include a self test step after everytime an epoch loop is finished. We test t
 
 ## Installation 
 ### How to run
-* Run tensorlayer_dataprocess.py to preprocess the data
+* Run 'tensorlayer_dataprocess.py' to preprocess the data
 * Run tensorlayer_chat.py to train the model 
 * Run load_model.py to chat with the model
 
