@@ -76,7 +76,7 @@ We include a self test step after everytime an epoch loop is finished. We test t
 
 #### twitter_en.txt
 This is the dialog corpus we use. 
-#### model.npz
+#### model_thefinal.npz
 This is the model we already trained. You can skip `tensorlayer_chat.py` and run `load_model.py` to see our pre-trained model.
 ### Dependency lists
 This project requires the following pakages:
