@@ -22,8 +22,11 @@ Words embedding is an important part in Natural Language Processing. The main id
 
 Usually a embedding layer is used before the training model. We choose Google News Word2Word as our embedding layer.
 
-### Corpus
-The training datasets we choose for this project are the Cornell Movie Dialogs corpus, Ubuntu Dialogue Corpus and Supreme Court Conversation Data.
+### Models 
+#### RNN
+* A simple RNN model can map the input sequence to a fixed size vector then map the vector to the target sequence in theory, but the results are not ideal when long term dependencies were introduced. The Long Short-Term Memory (LSTM) is explicitly designed to avoid the long-term dependency problem.
+
+
 
 ### Package
 This project requires the following pakages:
