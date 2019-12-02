@@ -9,7 +9,7 @@
     * [Embedding layer](#Embedding-layer)
     * [Models](#Models)
          * [Reccurent Neural Networks](#Reccurent-Neural-Networks)
-         * [Gated Recurrent Unit (GRU)](#Gated-Recurrent-Unit-(GRU))
+         * [Gated Recurrent Unit](#Gated-Recurrent-Unit)
     * [Training](#Training)
 * [Results](#Results)
 * [Installation](#Installation)
@@ -46,8 +46,8 @@ Usually a embedding layer is used before the training model. We choose Google Ne
 
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/Encoder.png?raw=true)
 
-#### Gated Recurrent Unit (GRU)
-Gated Recurrent Unit is very similar to LSTM, with forget gate but has fewer parameters than LSTM. This is the sturcture of Gated Recurrent Unit.
+#### Gated Recurrent Unit
+Gated Recurrent Unit (GRU) is very similar to LSTM, with forget gate but has fewer parameters than LSTM. This is the sturcture of Gated Recurrent Unit.
 
 ![Image text](https://github.com/babyshambles/Chatbot/blob/master/GRU.png?raw=true)
 
