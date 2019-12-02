@@ -1,6 +1,6 @@
 # EE628 final porject
-# Chatbot based on Reccurent Neural Networks 
-## Team member: Yufei Wang,  Jiangchuan Li
+## Chatbot based on Reccurent Neural Networks 
+### Team member: Yufei Wang,  Jiangchuan Li
 #### Table of Contents
 * [Introduction](#Introduction)
 * [TODO](#TODO)
