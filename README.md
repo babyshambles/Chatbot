@@ -75,7 +75,7 @@ We include a self test step after everytime an epoch loop is finished. We test t
 
 When the training process finished, we begin to chat with this model. Below is a simple dialogue chatting with this model.
 
-<img width="700" height="500" src="https://github.com/babyshambles/Chatbot/blob/master/Final_dialogue.png"/>
+![Image text](https://github.com/babyshambles/Chatbot/blob/master/Final_dialogue?raw=true)
 
 
 ## Installation 
