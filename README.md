@@ -12,6 +12,7 @@
          * [Gated Recurrent Unit](#Gated-Recurrent-Unit)
     * [Training](#Training)
 * [Results](#Results)
+    * [Self test](#Self-test)
 * [Installation](#Installation)
     * [How to run](#How-to-run)
     * [Dependency lists](#Dependency-lists)
@@ -60,7 +61,7 @@ We choose to use GRU instead of LSTM because we find that GRU has shorter traini
 ## Results
 ### Self test
 We include a self test step after everytime an epoch loop is finished. We test the model with two sentences: 1. Happy birthday have a nice day 2. donld trump won lost nights presidential debate according to snap online polls. We can see how the model's responce is improving.
-![Image text](https://github.com/babyshambles/Chatbot/blob/master/Encoder.png?raw=true)
+![Image text](https://github.com/babyshambles/Chatbot/blob/master/epoch.png?raw=true)
 ## Installation 
 ### How to run
 ### Dependency lists
