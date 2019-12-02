@@ -16,7 +16,8 @@ We need to do some data cleaning and transformations before using it to train th
 * We delete all the tags and symbols, only keep the words information. At the same time we delete the sentences that are too long or too short to keep the datasets in order.
 * we get the real lists of words and we call it the whole vocabulary, this vocabulary includes thefrequency of every word. We also create the index of word, words to index dictionary.
 * Tokenization. As we know Deep Learning models can not read text directly, so our job is to convert this word-basedtext to integer index. First we split the data into question set and answer set, then add zero padding tothese both sets. Here we should note that if the word is not in the vocabulary, we should replace theword with ’unk’ and get the final results indices of words. 
-Here for natural language processing, the first important is the emmbedding layer. We choose the Google News Word2word as the embedding layer. Also there are some other pre-trained word vector such as FastText, it time permits, will try these word vector to see which one has the most excellent performance.
+### Embedding layer
+Words embedding is an important part in Natural Language Processing. The main idea behinds this is, we can keep the relation between related words and sentances by turned the words into vectors. In the Embedding space, two embedding vectors(which represent two words) should be close to one another if two words are related. 
 
 ### Corpus
 The training datasets we choose for this project are the Cornell Movie Dialogs corpus, Ubuntu Dialogue Corpus and Supreme Court Conversation Data.
