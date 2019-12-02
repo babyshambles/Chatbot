@@ -46,7 +46,7 @@ We choose to use GRU instead of LSTM because we find that GRU has shorter traini
 
 ## Results
 ## Installation 
-
+### How to run
 ### Dependency lists
 This project requires the following pakages:
 * python 3
