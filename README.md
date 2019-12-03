@@ -67,16 +67,14 @@ This plot shows the convergence of loss in every training epoch.
 
 <img width="500" height="300" src="https://github.com/babyshambles/Chatbot/blob/master/loss.jpeg?raw=true"/>
 
-After 19 training epochs and more than 24 hours of training time, we finally get the chance to see how good is our Chatbot communication skills. 
+After 19 training epochs and more than 24 hours of training time, we finally get the chance to see how good is our Chatbot communication skills. Below is a simple dialogue chatting with this model.
+
+<img src="https://github.com/babyshambles/Chatbot/blob/master/Final_dialogue.png"/>
+
 ### Self test
 We include a self test step after everytime an epoch loop is finished. We test the model with two sentences: 1. Happy birthday have a nice day 2. donld trump won lost nights presidential debate according to snap online polls. We can see how the model's responce is improving.
 
 <img width="700" height="500" src="https://github.com/babyshambles/Chatbot/blob/master/Epoch.png"/>
-
-When the training process finished, we begin to chat with this model. Below is a simple dialogue chatting with this model.
-
-<img src="https://github.com/babyshambles/Chatbot/blob/master/Final_dialogue.png"/>
-
 
 ## Installation 
 ### How to run
