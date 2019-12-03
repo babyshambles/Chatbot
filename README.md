@@ -74,6 +74,10 @@ We include a self test step after everytime an epoch loop is finished. We test t
 <img width="700" height="500" src="https://github.com/babyshambles/Chatbot/blob/master/Epoch.png"/>
 
 When the training process finished, we begin to chat with this model. Below is a simple dialogue chatting with this model.
+
+<img src="https://github.com/babyshambles/Chatbot/blob/master/Final_dialogue.png"/>
+
+
 ## Installation 
 ### How to run
 * Run `tensorlayer_dataprocess.py` to preprocess the data
